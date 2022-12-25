@@ -1,0 +1,7 @@
+export {default as SVG} from "./SVG"
+export {default as Fullscreen} from "./Fullscreen"
+export {default as Platforms} from "./Platforms"
+export {default as Video} from "./Video"
+export {default as Buying} from "./Buying"
+export {default as Card} from "./Card"
+export {default as Contacts} from "./Contacts"
