@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { SVG } from "./"
 
 const background = require("../img/background.png")
@@ -8,6 +8,7 @@ const Background = () => {
   const [height, setHeight] = useState(window.innerHeight)
   const [scrollScore, setScrollScore] = useState(window.scrollY)
 
+  console.log(scrollScore)
   window.onresize = () => setHeight(window.innerHeight)
   window.onscroll = () => setScrollScore(window.scrollY);
 
