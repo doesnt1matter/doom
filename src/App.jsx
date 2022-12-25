@@ -1,7 +1,7 @@
 import "./style/index.scss"
 import "./style/nulling.scss"
 
-import {Fullscreen, Platforms, Video, Buying, Contacts, SVG} from "./components"
+import {Fullscreen, Platforms, Video, Buying, Contacts} from "./components"
 
 function App() {
 
